@@ -1,4 +1,11 @@
-package ping.pong;
+import pedidos.Pedido;
+import pedidos.PedidoInternacional;
+import pedidos.PedidoPeligroso;
+import pedidos.PedidoPeligrosoOrden;
+import procesador.Oficina;
+import tratramientos.TratamientoPedido;
+import tratramientos.TratamientoPedidoInternacional;
+import tratramientos.TratamientoPedidoPeligroso;
 
 public class App {
 
@@ -28,9 +35,5 @@ public class App {
         peligroso = new TratamientoPedidoPeligroso((PedidoPeligroso) pedido);
 
         System.out.println(oficina.printarStatus(oficina.procesa(peligroso), pedido));
-
-        /**
-         * Los pedidos multiples se completan en el ultimo de los casos test
-         */
     }
 }
