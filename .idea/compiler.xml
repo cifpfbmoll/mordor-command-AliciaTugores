@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="mordor" />
+        <module name="mordor-command" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mordor" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>

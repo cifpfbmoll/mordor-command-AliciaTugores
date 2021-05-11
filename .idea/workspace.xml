@@ -23,10 +23,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d75481ca-9643-46db-b579-6c5c57e709c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mordor/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/project/Hello.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/project/TestHello.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mordor-command/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mordor-command/src/main/java/pedidos/Pedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mordor-command/src/main/java/pedidos/PedidoInternacional.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mordor-command/src/main/java/pedidos/PedidoNacional.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mordor-command/src/main/java/pedidos/PedidoPeligroso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mordor-command/src/main/java/pedidos/PedidoPeligrosoOrden.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mordor-command/src/main/java/tratramientos/TratamientoPedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mordor-command/src/main/java/tratramientos/TratamientoPedidoInternacional.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mordor-command/src/main/java/tratramientos/TratamientoPedidoPeligroso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mordor/src/test/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mordor/src/test/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,13 +53,21 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\plugins\maven\lib\maven3" />
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -64,24 +84,171 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\CLASE\mordor-command-AliciaTugores\mordor\src\main" />
+      <recent name="C:\CLASE\mordor-command-AliciaTugores\mordor\src" />
+      <recent name="C:\CLASE\mordor-command-AliciaTugores\mordor\src\test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TestPedidos.test_UUID_generator">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestPedidos.test_Comarca" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mordor-command" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pingpong.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pingpong" />
+      <option name="MAIN_CLASS_NAME" value="pingpong.TestPedidos" />
+      <option name="METHOD_NAME" value="test_Comarca" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPedidos.test_Mordor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mordor-command" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pingpong.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pingpong" />
+      <option name="MAIN_CLASS_NAME" value="pingpong.TestPedidos" />
+      <option name="METHOD_NAME" value="test_Mordor" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPedidos.test_UUID_generator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mordor-command" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pingpong.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pingpong" />
+      <option name="MAIN_CLASS_NAME" value="pingpong.TestPedidos" />
+      <option name="METHOD_NAME" value="test_UUID_generator" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPedidos.test_pedido_peligroso_KO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mordor-command" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pingpong.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pingpong" />
+      <option name="MAIN_CLASS_NAME" value="pingpong.TestPedidos" />
+      <option name="METHOD_NAME" value="test_pedido_peligroso_KO" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPedidos.test_pedido_peligroso_OK" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mordor-command" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pingpong.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pingpong" />
+      <option name="MAIN_CLASS_NAME" value="pingpong.TestPedidos" />
+      <option name="METHOD_NAME" value="test_pedido_peligroso_OK" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="mordor" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="mordor" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestPedidos.test_UUID_generator" />
+        <item itemvalue="JUnit.TestPedidos.test_pedido_peligroso_OK" />
+        <item itemvalue="JUnit.TestPedidos.test_pedido_peligroso_KO" />
+        <item itemvalue="JUnit.TestPedidos.test_Comarca" />
+        <item itemvalue="JUnit.TestPedidos.test_Mordor" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -91,8 +258,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1620746424063</updated>
-      <workItem from="1620746425325" duration="1267000" />
+      <workItem from="1620746425325" duration="1569000" />
+      <workItem from="1620748674079" duration="2586000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: inicializando con maven">
+      <created>1620748404420</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1620748404420</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,27 +284,45 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: inicializando con maven" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: inicializando con maven" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="123" key="GridCell.Tab.0.bottom" timestamp="1620748281002">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="123" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.1.1920.1040@0.0.1536.824" timestamp="1620748281002" />
-    <state width="1493" height="123" key="GridCell.Tab.0.center" timestamp="1620748281002">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="123" key="GridCell.Tab.0.center/0.0.1536.824/1920.1.1920.1040@0.0.1536.824" timestamp="1620748281002" />
-    <state width="1493" height="123" key="GridCell.Tab.0.left" timestamp="1620748281002">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="123" key="GridCell.Tab.0.left/0.0.1536.824/1920.1.1920.1040@0.0.1536.824" timestamp="1620748281002" />
-    <state width="1493" height="123" key="GridCell.Tab.0.right" timestamp="1620748281002">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="123" key="GridCell.Tab.0.right/0.0.1536.824/1920.1.1920.1040@0.0.1536.824" timestamp="1620748281002" />
-    <state x="2262" y="182" key="new project wizard" timestamp="1620748046877">
+    <state x="2685" y="227" key="#com.intellij.ide.util.MemberChooser" timestamp="1620751254308">
       <screen x="1920" y="1" width="1920" height="1040" />
     </state>
+    <state x="2685" y="227" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.1.1920.1040@1920.1.1920.1040" timestamp="1620751254308" />
+    <state width="1877" height="123" key="GridCell.Tab.0.bottom" timestamp="1620750278716">
+      <screen x="1920" y="1" width="1920" height="1040" />
+    </state>
+    <state width="1493" height="123" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.1.1920.1040@0.0.1536.824" timestamp="1620748655663" />
+    <state width="1877" height="123" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.1.1920.1040@1920.1.1920.1040" timestamp="1620750278716" />
+    <state width="1877" height="123" key="GridCell.Tab.0.center" timestamp="1620750278716">
+      <screen x="1920" y="1" width="1920" height="1040" />
+    </state>
+    <state width="1493" height="123" key="GridCell.Tab.0.center/0.0.1536.824/1920.1.1920.1040@0.0.1536.824" timestamp="1620748655663" />
+    <state width="1877" height="123" key="GridCell.Tab.0.center/0.0.1536.824/1920.1.1920.1040@1920.1.1920.1040" timestamp="1620750278716" />
+    <state width="1877" height="123" key="GridCell.Tab.0.left" timestamp="1620750278716">
+      <screen x="1920" y="1" width="1920" height="1040" />
+    </state>
+    <state width="1493" height="123" key="GridCell.Tab.0.left/0.0.1536.824/1920.1.1920.1040@0.0.1536.824" timestamp="1620748655663" />
+    <state width="1877" height="123" key="GridCell.Tab.0.left/0.0.1536.824/1920.1.1920.1040@1920.1.1920.1040" timestamp="1620750278716" />
+    <state width="1877" height="123" key="GridCell.Tab.0.right" timestamp="1620750278716">
+      <screen x="1920" y="1" width="1920" height="1040" />
+    </state>
+    <state width="1493" height="123" key="GridCell.Tab.0.right/0.0.1536.824/1920.1.1920.1040@0.0.1536.824" timestamp="1620748655663" />
+    <state width="1877" height="123" key="GridCell.Tab.0.right/0.0.1536.824/1920.1.1920.1040@1920.1.1920.1040" timestamp="1620750278716" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1620748407413">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.1.1920.1040@0.0.1536.824" timestamp="1620748407413" />
+    <state x="274" y="143" key="new project wizard" timestamp="1620748864042">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="274" y="143" key="new project wizard/0.0.1536.824/1920.1.1920.1040@0.0.1536.824" timestamp="1620748864042" />
     <state x="2262" y="182" key="new project wizard/0.0.1536.824/1920.1.1920.1040@1920.1.1920.1040" timestamp="1620748046877" />
   </component>
 </project>
