@@ -16,7 +16,14 @@ public class TratamientoPedidoMultiple implements TratamientoPedido{
 
     @Override
     public boolean tratar() {
-        return false;
+        calcularPesoTotal();
+        calcularTotalBultos();
+        if (pesoTotal > 0 && numBultos == pedidos.size()) {
+            return true;
+        }
+        else{
+            return false;
+        }
     }
 
     public Integer getPesoTotal(){
@@ -27,7 +34,11 @@ public class TratamientoPedidoMultiple implements TratamientoPedido{
         return this.numBultos;
     }
 
-//    public void calcularPesoTotal(){}
-//
-//    public void calcularTotalBultos(){}
+    public void calcularPesoTotal(){
+        this.pesoTotal = pedidos.stream().map(Pedido::peso).reduce(0, Integer::sum);
+    }
+
+    public void calcularTotalBultos(){
+        this.numBultos = pedidos.stream().count();
+    }
 }

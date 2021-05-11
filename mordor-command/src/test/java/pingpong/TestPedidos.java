@@ -212,29 +212,29 @@ public class TestPedidos {
         TratamientoPedidoMultiple pedidosMult = new TratamientoPedidoMultiple(pedidos);
         assertNotNull(pedidosMult);
 
-//        /**
-//         * Completa los metodos del pedido multiple.
-//         * Se valorara el uso de streams.
-//         *
-//         * calcularTotalBultos
-//         * @param   void
-//         * @return  void
-//         *
-//         * calcularPesoTotal
-//         * @param   void
-//         * @return  void
-//         *
-//         */
-//
-//        pedidosMult.calcularTotalBultos();
-//        assertEquals(3, pedidosMult.getNumBultos(), 0);
-//
-//        pedidosMult.calcularPesoTotal();
-//        assertEquals(30, pedidosMult.getPesoTotal(), 0);
-//
-//        /**
-//         * Trata el pedido multiple.
-//         */
-//        assertTrue(pedidosMult.tratar());
+        /**
+         * Completa los metodos del pedido multiple.
+         * Se valorara el uso de streams.
+         *
+         * calcularTotalBultos
+         * @param   void
+         * @return  void
+         *
+         * calcularPesoTotal
+         * @param   void
+         * @return  void
+         *
+         */
+
+        pedidosMult.calcularTotalBultos();
+        assertEquals(3, pedidosMult.getNumBultos(), 0);
+
+        pedidosMult.calcularPesoTotal();
+        assertEquals(30, pedidosMult.getPesoTotal(), 0);
+
+        /**
+         * Trata el pedido multiple.
+         */
+        assertTrue(pedidosMult.tratar());
    }
 }
