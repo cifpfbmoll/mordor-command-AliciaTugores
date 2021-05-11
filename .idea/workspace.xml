@@ -23,9 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d75481ca-9643-46db-b579-6c5c57e709c5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mordor-command/src/main/java/tratramientos/TratamientoPedidoMultiple.java" beforeDir="false" afterPath="$PROJECT_DIR$/mordor-command/src/main/java/tratramientos/TratamientoPedidoMultiple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mordor-command/src/test/java/pingpong/TestPedidos.java" beforeDir="false" afterPath="$PROJECT_DIR$/mordor-command/src/test/java/pingpong/TestPedidos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mordor-command/src/main/java/pingpong/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/mordor-command/src/main/java/pingpong/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +77,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
@@ -90,7 +88,20 @@
       <recent name="C:\CLASE\mordor-command-AliciaTugores\mordor\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestPedidos">
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pingpong.App" />
+      <module name="mordor-command" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pingpong.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -130,22 +141,6 @@
       <option name="PACKAGE_NAME" value="pingpong" />
       <option name="MAIN_CLASS_NAME" value="pingpong.TestPedidos" />
       <option name="METHOD_NAME" value="test_interface_procesador" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestPedidos.test_pedido_nacional_UUDI" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mordor-command" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pingpong.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pingpong" />
-      <option name="MAIN_CLASS_NAME" value="pingpong.TestPedidos" />
-      <option name="METHOD_NAME" value="test_pedido_nacional_UUDI" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -232,11 +227,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="JUnit.TestPedidos" />
         <item itemvalue="JUnit.TestPedidos.test_tratamiento_pedido_multiple_tratar" />
         <item itemvalue="JUnit.TestPedidos.test_printar_status" />
         <item itemvalue="JUnit.TestPedidos.test_interface_procesador" />
-        <item itemvalue="JUnit.TestPedidos.test_pedido_nacional_UUDI" />
       </list>
     </recent_temporary>
   </component>
@@ -249,7 +244,7 @@
       <option name="presentableId" value="Default" />
       <updated>1620746424063</updated>
       <workItem from="1620746425325" duration="1569000" />
-      <workItem from="1620748674079" duration="5987000" />
+      <workItem from="1620748674079" duration="6291000" />
     </task>
     <task id="LOCAL-00001" summary="feat: inicializando con maven">
       <created>1620748404420</created>
@@ -293,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620754403014</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="terminados los casos test con éxitos pero la segunda parte del último caso test no entendido del todo">
+      <created>1620755642959</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1620755642959</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,42 +320,43 @@
     <MESSAGE value="caso test número 6 pasado con éxito, creado el package procesador con oficina" />
     <MESSAGE value="caso test número 7 completado con éxito, añadido método printarStatus en la clase oficina" />
     <MESSAGE value="completada la primera parte del último caso test" />
-    <option name="LAST_COMMIT_MESSAGE" value="completada la primera parte del último caso test" />
+    <MESSAGE value="terminados los casos test con éxitos pero la segunda parte del último caso test no entendido del todo" />
+    <option name="LAST_COMMIT_MESSAGE" value="terminados los casos test con éxitos pero la segunda parte del último caso test no entendido del todo" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2685" y="227" key="#com.intellij.ide.util.MemberChooser" timestamp="1620753933339">
       <screen x="1920" y="1" width="1920" height="1040" />
     </state>
     <state x="2685" y="227" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.1.1920.1040@1920.1.1920.1040" timestamp="1620753933339" />
-    <state width="1877" height="172" key="GridCell.Tab.0.bottom" timestamp="1620754378003">
+    <state width="1877" height="172" key="GridCell.Tab.0.bottom" timestamp="1620755612236">
       <screen x="1920" y="1" width="1920" height="1040" />
     </state>
     <state width="1493" height="123" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.1.1920.1040@0.0.1536.824" timestamp="1620748655663" />
-    <state width="1877" height="172" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.1.1920.1040@1920.1.1920.1040" timestamp="1620754378003" />
-    <state width="1877" height="172" key="GridCell.Tab.0.center" timestamp="1620754378003">
+    <state width="1877" height="172" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.1.1920.1040@1920.1.1920.1040" timestamp="1620755612236" />
+    <state width="1877" height="172" key="GridCell.Tab.0.center" timestamp="1620755612236">
       <screen x="1920" y="1" width="1920" height="1040" />
     </state>
     <state width="1493" height="123" key="GridCell.Tab.0.center/0.0.1536.824/1920.1.1920.1040@0.0.1536.824" timestamp="1620748655663" />
-    <state width="1877" height="172" key="GridCell.Tab.0.center/0.0.1536.824/1920.1.1920.1040@1920.1.1920.1040" timestamp="1620754378003" />
-    <state width="1877" height="172" key="GridCell.Tab.0.left" timestamp="1620754378003">
+    <state width="1877" height="172" key="GridCell.Tab.0.center/0.0.1536.824/1920.1.1920.1040@1920.1.1920.1040" timestamp="1620755612236" />
+    <state width="1877" height="172" key="GridCell.Tab.0.left" timestamp="1620755612236">
       <screen x="1920" y="1" width="1920" height="1040" />
     </state>
     <state width="1493" height="123" key="GridCell.Tab.0.left/0.0.1536.824/1920.1.1920.1040@0.0.1536.824" timestamp="1620748655663" />
-    <state width="1877" height="172" key="GridCell.Tab.0.left/0.0.1536.824/1920.1.1920.1040@1920.1.1920.1040" timestamp="1620754378003" />
-    <state width="1877" height="172" key="GridCell.Tab.0.right" timestamp="1620754378003">
+    <state width="1877" height="172" key="GridCell.Tab.0.left/0.0.1536.824/1920.1.1920.1040@1920.1.1920.1040" timestamp="1620755612236" />
+    <state width="1877" height="172" key="GridCell.Tab.0.right" timestamp="1620755612236">
       <screen x="1920" y="1" width="1920" height="1040" />
     </state>
     <state width="1493" height="123" key="GridCell.Tab.0.right/0.0.1536.824/1920.1.1920.1040@0.0.1536.824" timestamp="1620748655663" />
-    <state width="1877" height="172" key="GridCell.Tab.0.right/0.0.1536.824/1920.1.1920.1040@1920.1.1920.1040" timestamp="1620754378003" />
-    <state x="2360" y="95" key="SettingsEditor" timestamp="1620755416698">
+    <state width="1877" height="172" key="GridCell.Tab.0.right/0.0.1536.824/1920.1.1920.1040@1920.1.1920.1040" timestamp="1620755612236" />
+    <state x="2360" y="95" key="SettingsEditor" timestamp="1620755457926">
       <screen x="1920" y="1" width="1920" height="1040" />
     </state>
-    <state x="2360" y="95" key="SettingsEditor/0.0.1536.824/1920.1.1920.1040@1920.1.1920.1040" timestamp="1620755416698" />
-    <state x="2371" y="184" key="Vcs.Push.Dialog.v2" timestamp="1620754408905">
+    <state x="2360" y="95" key="SettingsEditor/0.0.1536.824/1920.1.1920.1040@1920.1.1920.1040" timestamp="1620755457926" />
+    <state x="2371" y="184" key="Vcs.Push.Dialog.v2" timestamp="1620755645595">
       <screen x="1920" y="1" width="1920" height="1040" />
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.1.1920.1040@0.0.1536.824" timestamp="1620748407413" />
-    <state x="2371" y="184" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.1.1920.1040@1920.1.1920.1040" timestamp="1620754408905" />
+    <state x="2371" y="184" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.1.1920.1040@1920.1.1920.1040" timestamp="1620755645595" />
     <state x="274" y="143" key="new project wizard" timestamp="1620748864042">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
