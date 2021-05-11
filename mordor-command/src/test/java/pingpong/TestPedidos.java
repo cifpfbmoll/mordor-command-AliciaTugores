@@ -6,7 +6,13 @@ import procesador.Oficina;
 import procesador.Procesador;
 import tratramientos.TratamientoPedido;
 import tratramientos.TratamientoPedidoInternacional;
+import tratramientos.TratamientoPedidoMultiple;
 import tratramientos.TratamientoPedidoPeligroso;
+
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
@@ -170,42 +176,42 @@ public class TestPedidos {
 
     }
 
-//    /**
-//     * Crea una clase TratamientoPedidoMultiple que permita tratar
-//     * pedidos multiples.
-//     *
-//     * La clase permite tratar el pedido multiple si
-//     * el peso total de los pedidos es mayor que 0
-//     * y
-//     * el numero de bultos coincide con el numero de
-//     * pedidos individuales que forman el pedido multiple.
-//     *
-//     * Crea las clases necesarias que se requieren en los casos test
-//     * respetando los constructores que se exigen.
-//     */
-//
-//    @Test
-//    public void test_tratamiento_pedido_multiple_tratar() {
-//
-//        /**
-//         * Crea una colección de tres pedidos nacionales, a "Gondor", "Minas Tirith", "Rohan"
-//         * con un peso de 10 cada uno.
-//         *
-//         * Pasasela a TratamientoPedidosMultiple en su constructor.
-//         */
-//
-//        Set<Pedido> pedidos = new HashSet<>();
-//        List<String> destinos = Arrays.asList("Gondor", "Minas Tirith", "Rohan");
-//        List<Integer> pesos = Arrays.asList(10, 10, 10);
-//
-//        for (int i=0; i<destinos.size(); i++) {
-//            pedidos.add(new PedidoNacional(destinos.get(i), pesos.get(i)));
-//        }
-//        assertEquals(3, pedidos.size());
-//
-//        TratamientoPedidoMultiple pedidosMult = new TratamientoPedidoMultiple(pedidos);
-//        assertNotNull(pedidosMult);
-//
+    /**
+     * Crea una clase TratamientoPedidoMultiple que permita tratar
+     * pedidos multiples.
+     *
+     * La clase permite tratar el pedido multiple si
+     * el peso total de los pedidos es mayor que 0
+     * y
+     * el numero de bultos coincide con el numero de
+     * pedidos individuales que forman el pedido multiple.
+     *
+     * Crea las clases necesarias que se requieren en los casos test
+     * respetando los constructores que se exigen.
+     */
+
+    @Test
+    public void test_tratamiento_pedido_multiple_tratar() {
+
+        /**
+         * Crea una colección de tres pedidos nacionales, a "Gondor", "Minas Tirith", "Rohan"
+         * con un peso de 10 cada uno.
+         *
+         * Pasasela a TratamientoPedidosMultiple en su constructor.
+         */
+
+        Set<Pedido> pedidos = new HashSet<>();
+        List<String> destinos = Arrays.asList("Gondor", "Minas Tirith", "Rohan");
+        List<Integer> pesos = Arrays.asList(10, 10, 10);
+
+        for (int i=0; i<destinos.size(); i++) {
+            pedidos.add(new PedidoNacional(destinos.get(i), pesos.get(i)));
+        }
+        assertEquals(3, pedidos.size());
+
+        TratamientoPedidoMultiple pedidosMult = new TratamientoPedidoMultiple(pedidos);
+        assertNotNull(pedidosMult);
+
 //        /**
 //         * Completa los metodos del pedido multiple.
 //         * Se valorara el uso de streams.
@@ -230,5 +236,5 @@ public class TestPedidos {
 //         * Trata el pedido multiple.
 //         */
 //        assertTrue(pedidosMult.tratar());
-//    }
+   }
 }
