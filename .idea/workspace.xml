@@ -23,9 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d75481ca-9643-46db-b579-6c5c57e709c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mordor-command/src/main/java/procesador/Oficina.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mordor-command/src/main/java/procesador/Procesador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mordor-command/src/main/java/procesador/Oficina.java" beforeDir="false" afterPath="$PROJECT_DIR$/mordor-command/src/main/java/procesador/Oficina.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mordor-command/src/test/java/pingpong/TestPedidos.java" beforeDir="false" afterPath="$PROJECT_DIR$/mordor-command/src/test/java/pingpong/TestPedidos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +44,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -86,7 +86,7 @@
       <recent name="C:\CLASE\mordor-command-AliciaTugores\mordor\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestPedidos.test_interface_procesador">
+  <component name="RunManager" selected="JUnit.TestPedidos.test_printar_status">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -148,22 +148,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestPedidos.test_pedido_peligroso_KO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mordor-command" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pingpong.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pingpong" />
-      <option name="MAIN_CLASS_NAME" value="pingpong.TestPedidos" />
-      <option name="METHOD_NAME" value="test_pedido_peligroso_KO" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestPedidos.test_pedido_peligroso_OK" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mordor-command" />
       <extension name="coverage">
@@ -175,6 +159,22 @@
       <option name="PACKAGE_NAME" value="pingpong" />
       <option name="MAIN_CLASS_NAME" value="pingpong.TestPedidos" />
       <option name="METHOD_NAME" value="test_pedido_peligroso_OK" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPedidos.test_printar_status" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mordor-command" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pingpong.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pingpong" />
+      <option name="MAIN_CLASS_NAME" value="pingpong.TestPedidos" />
+      <option name="METHOD_NAME" value="test_printar_status" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -229,11 +229,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestPedidos.test_printar_status" />
         <item itemvalue="JUnit.TestPedidos.test_interface_procesador" />
         <item itemvalue="JUnit.TestPedidos.test_pedido_nacional_UUDI" />
         <item itemvalue="JUnit.TestPedidos.test_UUID_generator" />
         <item itemvalue="JUnit.TestPedidos.test_pedido_peligroso_OK" />
-        <item itemvalue="JUnit.TestPedidos.test_pedido_peligroso_KO" />
       </list>
     </recent_temporary>
   </component>
@@ -246,7 +246,7 @@
       <option name="presentableId" value="Default" />
       <updated>1620746424063</updated>
       <workItem from="1620746425325" duration="1569000" />
-      <workItem from="1620748674079" duration="3920000" />
+      <workItem from="1620748674079" duration="4401000" />
     </task>
     <task id="LOCAL-00001" summary="feat: inicializando con maven">
       <created>1620748404420</created>
@@ -269,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620751749050</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="caso test número 6 pasado con éxito, creado el package procesador con oficina">
+      <created>1620753674429</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1620753674429</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,38 +298,39 @@
     <MESSAGE value="feat: inicializando con maven" />
     <MESSAGE value="Primeros 5 casos test realizados con éxito; pedidoInternacional y pedidoPeligroso." />
     <MESSAGE value="Caso test de pedido Nacional pasado con éxito" />
-    <option name="LAST_COMMIT_MESSAGE" value="Caso test de pedido Nacional pasado con éxito" />
+    <MESSAGE value="caso test número 6 pasado con éxito, creado el package procesador con oficina" />
+    <option name="LAST_COMMIT_MESSAGE" value="caso test número 6 pasado con éxito, creado el package procesador con oficina" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2685" y="227" key="#com.intellij.ide.util.MemberChooser" timestamp="1620753261610">
       <screen x="1920" y="1" width="1920" height="1040" />
     </state>
     <state x="2685" y="227" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.1.1920.1040@1920.1.1920.1040" timestamp="1620753261610" />
-    <state width="1877" height="172" key="GridCell.Tab.0.bottom" timestamp="1620751717640">
+    <state width="1877" height="172" key="GridCell.Tab.0.bottom" timestamp="1620753633384">
       <screen x="1920" y="1" width="1920" height="1040" />
     </state>
     <state width="1493" height="123" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.1.1920.1040@0.0.1536.824" timestamp="1620748655663" />
-    <state width="1877" height="172" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.1.1920.1040@1920.1.1920.1040" timestamp="1620751717640" />
-    <state width="1877" height="172" key="GridCell.Tab.0.center" timestamp="1620751717625">
+    <state width="1877" height="172" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.1.1920.1040@1920.1.1920.1040" timestamp="1620753633384" />
+    <state width="1877" height="172" key="GridCell.Tab.0.center" timestamp="1620753633384">
       <screen x="1920" y="1" width="1920" height="1040" />
     </state>
     <state width="1493" height="123" key="GridCell.Tab.0.center/0.0.1536.824/1920.1.1920.1040@0.0.1536.824" timestamp="1620748655663" />
-    <state width="1877" height="172" key="GridCell.Tab.0.center/0.0.1536.824/1920.1.1920.1040@1920.1.1920.1040" timestamp="1620751717625" />
-    <state width="1877" height="172" key="GridCell.Tab.0.left" timestamp="1620751717625">
+    <state width="1877" height="172" key="GridCell.Tab.0.center/0.0.1536.824/1920.1.1920.1040@1920.1.1920.1040" timestamp="1620753633384" />
+    <state width="1877" height="172" key="GridCell.Tab.0.left" timestamp="1620753633383">
       <screen x="1920" y="1" width="1920" height="1040" />
     </state>
     <state width="1493" height="123" key="GridCell.Tab.0.left/0.0.1536.824/1920.1.1920.1040@0.0.1536.824" timestamp="1620748655663" />
-    <state width="1877" height="172" key="GridCell.Tab.0.left/0.0.1536.824/1920.1.1920.1040@1920.1.1920.1040" timestamp="1620751717625" />
-    <state width="1877" height="172" key="GridCell.Tab.0.right" timestamp="1620751717640">
+    <state width="1877" height="172" key="GridCell.Tab.0.left/0.0.1536.824/1920.1.1920.1040@1920.1.1920.1040" timestamp="1620753633383" />
+    <state width="1877" height="172" key="GridCell.Tab.0.right" timestamp="1620753633384">
       <screen x="1920" y="1" width="1920" height="1040" />
     </state>
     <state width="1493" height="123" key="GridCell.Tab.0.right/0.0.1536.824/1920.1.1920.1040@0.0.1536.824" timestamp="1620748655663" />
-    <state width="1877" height="172" key="GridCell.Tab.0.right/0.0.1536.824/1920.1.1920.1040@1920.1.1920.1040" timestamp="1620751717640" />
-    <state x="2371" y="184" key="Vcs.Push.Dialog.v2" timestamp="1620751751877">
+    <state width="1877" height="172" key="GridCell.Tab.0.right/0.0.1536.824/1920.1.1920.1040@1920.1.1920.1040" timestamp="1620753633384" />
+    <state x="2371" y="184" key="Vcs.Push.Dialog.v2" timestamp="1620753676561">
       <screen x="1920" y="1" width="1920" height="1040" />
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.1.1920.1040@0.0.1536.824" timestamp="1620748407413" />
-    <state x="2371" y="184" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.1.1920.1040@1920.1.1920.1040" timestamp="1620751751877" />
+    <state x="2371" y="184" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.1.1920.1040@1920.1.1920.1040" timestamp="1620753676561" />
     <state x="274" y="143" key="new project wizard" timestamp="1620748864042">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
